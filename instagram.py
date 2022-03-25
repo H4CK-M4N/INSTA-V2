@@ -23,7 +23,7 @@ ___logo___ = (f"""{H}
 {K}[{P}•{K}]{P}——————————————————————————————
 {H}[{P}>{H}]{P} AU : H4CK-M4N
 {H}[{P}>{H}]{P} WP : +2349150557103
-{H}[{P}>{H}]{P} IG : علی رضا
+{H}[{P}>{H}]{P} IG : @iam_melanin_
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
 def xoshnaw(): 
@@ -109,7 +109,7 @@ def ___menu___():
     print(f"{B}[{P}8{B}]{P} Dump User From Email")
     print(f"{B}[{P}9{B}]{P} Start Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{P} List Total Crack")
-    print(f"{B}[{P}A{B}]{P} Go out {P}[{M}Exit{P}]{M}\n")
+    print(f"{B}[{P}A{B}]{P} Log out {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Choose :{K} ")
     if ___pilih in ['1','01']:
         ___mengikuti___()
@@ -399,7 +399,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✔{B}]{P} Status :{H} Success     ")
+                        print(f"\r{B}[{P}✔{B}]{P} Status :{H} Melanin Success     ")
                         print(f"{B}[{P}>{B}]{P} Username :{H} {uid}")
                         print(f"{B}[{P}>{B}]{P} Password :{H} {pw}")
                         print(f"{B}[{P}>{B}]{P} Follower :{H} {follower}")
@@ -417,7 +417,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✘{B}]{P} Status :{K} Checkpoint    ")
+                        print(f"\r{B}[{P}✘{B}]{P} Status :{K} Melanin Checkpoint    ")
                         print(f"{B}[{P}>{B}]{P} Username :{K} {uid}")
                         print(f"{B}[{P}>{B}]{P} Password :{K} {pw}")
                         print(f"{B}[{P}>{B}]{P} Follower :{K} {follower}")
