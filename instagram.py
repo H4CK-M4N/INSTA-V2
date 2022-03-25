@@ -15,20 +15,39 @@ P = ('\x1b[1;97m')
 
 # Logo
 ___logo___ = (f"""{H} 
- /$$      /$$ /$$$$$$$$ /$$        /$$$$$$  /$$   /$$ /$$$$$$ /$$   /$$
-| $$$    /$$$| $$_____/| $$       /$$__  $$| $$$ | $$|_  $$_/| $$$ | $$
-| $$$$  /$$$$| $$      | $$      | $$  \ $$| $$$$| $$  | $$  | $$$$| $$
-| $$ $$/$$ $$| $$$$$   | $$      | $$$$$$$$| $$ $$ $$  | $$  | $$ $$ $$
-| $$  $$$| $$| $$__/   | $$      | $$__  $$| $$  $$$$  | $$  | $$  $$$$
-| $$\  $ | $$| $$      | $$      | $$  | $$| $$\  $$$  | $$  | $$\  $$$
-| $$ \/  | $$| $$$$$$$$| $$$$$$$$| $$  | $$| $$ \  $$ /$$$$$$| $$ \  $$
-|__/     |__/|________/|________/|__/  |__/|__/  \__/|______/|__/  \__/
+  __  __ _____ _        _    _   _ ___ _   _ 
+ |  \/  | ____| |      / \  | \ | |_ _| \ | |
+ | |\/| |  _| | |     / _ \ |  \| || ||  \| |
+ | |  | | |___| |___ / ___ \| |\  || || |\  |
+ |_|  |_|_____|_____/_/   \_\_| \_|___|_| \_|
 {K}[{P}•{K}]{P}——————————————————————————————
 {H}[{P}>{H}]{P} AU : H4CK-M4N
 {H}[{P}>{H}]{P} WP : +2349150557103
 {H}[{P}>{H}]{P} IG : علی رضا
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
+def xoshnaw(): 
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "-".join(uuid) 
+  print("\x1b[37;1mYOUR ID : "+id) 
+  try: 
+    httpCaht = requests.get("https://github.com/H4CK-M4N/INSTA-V2/blob/main/list.txt").text 
+    if id in httpCaht: 
+      print("\033[1;92mYOUR ID IS ACTIVE...!") 
+      msg = str(os.geteuid()) 
+      time.sleep(0.3) 
+      pass 
+    else: 
+      print("\x1b[1;91mID ACTIVATE (WhatsApp) INBOX  ") 
+      os.system('xdg-open https://wa.me/+2349150557103') 
+      time.sleep(1) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print(logo) 
+     xoshnaw() 
+xoshnaw()
 # Login Cookie
 def ___login___():
     os.system('clear')
@@ -88,7 +107,7 @@ def ___menu___():
     print(f"{B}[{P}6{B}]{P} Dump Username From Search")
     print(f"{B}[{P}7{B}]{P} Dump Username From Query")
     print(f"{B}[{P}8{B}]{P} Dump User From Email")
-    print(f"{B}[{P}9{B}]{P} Mulai Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}9{B}]{P} Start Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{P} List Total Crack")
     print(f"{B}[{P}A{B}]{P} Go out {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Choose :{K} ")
