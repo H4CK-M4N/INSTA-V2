@@ -52,7 +52,7 @@ xoshnaw()
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} Enter Instagram Cookies, You Should Not Use The Newly Created Account, If You Don't Know How To Get Instagram Cookies Type {M}[{P}Open{M}]{P}\n")
+    print(f"{B}[{P}•{B}]{P} Enter Instagram Cookies, You Should Use The Newly Created Account, If You Don't Know How To Get Instagram Cookies Type {M}[{P}Open{M}]{P}\n")
     ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
         print(f"{K}[{P}!{K}]{P} You Will Be Redirected To Youtube, Please Follow The Way To Get Cookies...");sleep(3);os.system('xdg-open https://youtube.com/channel/UCO97zzdSWPQ62TS861GLCgw');exit()
